@@ -17,7 +17,6 @@ set SERVERNAME=tcp:(local)\SQLExpress
 if Not Exist %BACKUPFOLDER%\ MKDIR %BACKUPFOLDER%
 if Not Exist %ONLINEFOLDER%\ MKDIR %ONLINEFOLDER%
 
-
 REM delete the backup file if it already exists
 Del %BACKUPFILENAME% /F
 
